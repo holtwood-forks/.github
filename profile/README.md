@@ -72,6 +72,7 @@
 | [fruit-ninja-dojo](https://github.com/holtwood-forks/fruit-ninja-dojo) | yongqixue99-hue/fruit-ninja-dojo | 原生 Canvas 水果忍者小游戏 |
 | [patch-devin](https://github.com/holtwood-forks/patch-devin) | a0yark/patch-devin | Devin CLI 系统提示词补丁工具 |
 | [web_search_devin](https://github.com/holtwood-forks/web_search_devin) | mimimaster/windsurf-search-mcp | Devin 服务端 Web 搜索 MCP 服务器 |
+| [JadeAI](https://github.com/holtwood-forks/JadeAI) | LingyiChen-AI/JadeAI | AI 简历/求职工作台（自 holtwood-projects 归位，fork 归属修正） |
 
 ## 约定
 
