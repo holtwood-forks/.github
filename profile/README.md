@@ -1,20 +1,22 @@
 # Holtwood Forks
 
-上游开源项目的 fork 集合，分为两类：**研读副本**（读源码、加注释、做对照实验）与
-**自用 fork**（本地化、日常工具，改动只留在自己的分支）。
+上游源码研读室。这里没有原创项目；除组织配置仓 `.github` 外，所有仓库都是 fork。
 
 维护者：[holtwood](https://github.com/holtwood)
 
 ## 这里放什么
 
-这里没有原创项目。所有仓库都是上游项目的 fork，保留完整提交历史，随时可以和 upstream 对比。
-
 读大型代码库时，光看不够：需要加注释、改一行看行为、跑最小复现。这些改动放在原创仓库里会和上游历史分叉，所以统一放在这里；改坏了直接重 fork。
 
-原创项目在另外两个地方：
+Fork 保留完整提交历史，随时可以和 upstream 对比。这里的 fork 不构成原创贡献，也不进入作品集计数。
 
-- [open-infra-ai](https://github.com/open-infra-ai)：AI Infra 系统实现与性能证据
-- [holtwood-projects](https://github.com/holtwood-projects)：完整可运行的工具与教学项目
+## 我的原创工作在哪里
+
+- [holtwood-systems](https://github.com/holtwood-systems)：AI Infra / HPC 系统实现与性能证据
+- [holtwood-arena](https://github.com/holtwood-arena)：比赛、benchmark 与赛后复盘
+- [holtwood-projects](https://github.com/holtwood-projects)：早期应用与工具项目（维护模式）
+
+个人入口：[github.com/holtwood](https://github.com/holtwood) · 项目总览：[imshane.site/projects](https://imshane.site/projects)
 
 ## LLM 推理与服务
 
@@ -79,3 +81,7 @@
 - 不改写上游历史：不 rebase、不 squash
 - 实验改动只放在自己的分支，不推 upstream
 - 版权与许可归原作者，各仓库保留原 LICENSE
+
+---
+
+维护者：[holtwood](https://github.com/holtwood) · 原创系统：[holtwood-systems](https://github.com/holtwood-systems) · 比赛：[holtwood-arena](https://github.com/holtwood-arena)
