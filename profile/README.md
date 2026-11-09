@@ -10,11 +10,14 @@
 
 Fork 保留完整提交历史，随时可以和 upstream 对比。这里的 fork 不构成原创贡献，也不进入作品集计数。
 
+**注意**：其中若干仓库带本地补丁分支（例如 `vllm`、`sglang`、`mini-sglang`、`Termius-Pro-zh_CN` 都领先上游若干提交）。补丁的存在不改变"不算原创、不计入作品集"的结论；补丁的晋升条件见下。
+
 ## 我的原创工作在哪里
 
 - [holtwood-systems](https://github.com/holtwood-systems)：AI Infra / HPC 系统实现与性能证据
 - [holtwood-arena](https://github.com/holtwood-arena)：比赛、benchmark 与赛后复盘
-- [holtwood-projects](https://github.com/holtwood-projects)：早期应用与工具项目（维护模式）
+- [holtwood-projects](https://github.com/holtwood-projects)：早期应用与工具项目（归档维护）
+- [open-genomics](https://github.com/open-genomics)：生信旧主线（归档维护）
 
 个人入口：[github.com/holtwood](https://github.com/holtwood) · 项目总览：[imshane.site/projects](https://imshane.site/projects)
 
@@ -76,11 +79,22 @@ Fork 保留完整提交历史，随时可以和 upstream 对比。这里的 fork
 | [web_search_devin](https://github.com/holtwood-forks/web_search_devin) | mimimaster/windsurf-search-mcp | Devin 服务端 Web 搜索 MCP 服务器 |
 | [JadeAI](https://github.com/holtwood-forks/JadeAI) | LingyiChen-AI/JadeAI | AI 简历/求职工作台（自 holtwood-projects 归位，fork 归属修正） |
 
+## 补丁的晋升条件
+
+补丁默认留在这里。同时满足以下三条时，才提升到 [holtwood-systems](https://github.com/holtwood-systems)：
+
+1. 代码已脱离上游仓库的构建体系，能在仓内独立构建与运行；
+2. 有一条能在普通硬件上复现的验证路径（不依赖评靶机或特定集群）；
+3. 不涉及上游许可禁止再分发的内容。
+
+提升时在新仓库注明来源与改动范围，并在这里保留指向新仓库的说明；**不删除**原 fork。
+
 ## 约定
 
 - 不改写上游历史：不 rebase、不 squash
 - 实验改动只放在自己的分支，不推 upstream
 - 版权与许可归原作者，各仓库保留原 LICENSE
+- 衍生作品（汉化、移植、二次修改）在仓库 README 顶部标注上游与改动范围
 
 ---
 
