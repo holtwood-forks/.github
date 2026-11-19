@@ -17,7 +17,7 @@ Fork 保留完整提交历史，随时可以和 upstream 对比。这里的 fork
 - [holtwood-systems](https://github.com/holtwood-systems)：AI Infra / HPC 系统实现与性能证据
 - [holtwood-arena](https://github.com/holtwood-arena)：比赛、benchmark 与赛后复盘
 - [holtwood-projects](https://github.com/holtwood-projects)：早期应用与工具项目（归档维护）
-- [open-genomics](https://github.com/open-genomics)：生信旧主线（归档维护）
+- [holtwood-genomics](https://github.com/holtwood-genomics)：生信旧主线（归档维护）
 
 个人入口：[github.com/holtwood](https://github.com/holtwood) · 项目总览：[imshane.site/projects](https://imshane.site/projects)
 
